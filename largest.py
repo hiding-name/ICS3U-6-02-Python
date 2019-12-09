@@ -15,7 +15,7 @@ def largest_number(numbers):
     for number in numbers:
         if number > last_number:
             largest = number
-        last_number = number
+            last_number = number
 
     return largest
 
@@ -35,7 +35,8 @@ def main():
         numbers.append(number)
         # output
         print(numbers[repeater])
-        largest = largest_number(numbers)
+    
+    largest = largest_number(numbers)
 
     # output
     print("\nThe largest is " + str(largest))
